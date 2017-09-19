@@ -1,0 +1,14 @@
+
+.icon-list {
+    padding: 10px 20px;
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 450px;
+        .item {
+            width: 20%;
+            flex: 1 auto;
+            // margin: 10px;
+        } 
+    }
+}

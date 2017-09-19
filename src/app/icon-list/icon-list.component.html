@@ -1,0 +1,8 @@
+
+<div class="icon-list" *ngIf="list && list.length > 0">
+    <div class="items">
+        <div class="item" *ngFor="let icon of list">
+            <icon-item [data]="icon"></icon-item>
+        </div>
+    </div>
+</div>

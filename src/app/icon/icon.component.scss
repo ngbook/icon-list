@@ -1,0 +1,12 @@
+.icon-item {
+    text-align: center;
+    position: relative;
+    .iconfont {
+        font-size: 5em;
+        cursor: pointer;
+        line-height: 1.5em;
+        &:hover {
+            color: orange;
+        }
+    }
+}
