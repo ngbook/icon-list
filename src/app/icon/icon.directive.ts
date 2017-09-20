@@ -9,7 +9,8 @@ import { Icon } from './icon.model';
   selector: '[tooltip]'
 })
 export class IconDirective {
-    @Input()
+    // tslint:disable-next-line:no-input-rename
+    @Input('tooltip')
     text: string;
     private container: any; // tooltip容器
 
