@@ -8,7 +8,7 @@ import { Icon } from './icon.model';
 @Directive({
   selector: '[tooltip]'
 })
-export class IconDirective {
+export class TooltipDirective {
     // tslint:disable-next-line:no-input-rename
     @Input('tooltip')
     text: string;
